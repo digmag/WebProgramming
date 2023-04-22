@@ -1,0 +1,72 @@
+.mainpage{
+    background-color: rgb(128,128,128);
+}
+.treediv{
+    background-color: rgb(50,50,50);
+    display: inline-block;
+}
+.canvas{
+    background-color: white;
+}
+
+.canvas1{
+    background-color: white;
+}
+
+.input{
+    background-color: rgb(50,50,50);
+    font-family: Arial;
+    color :white;
+    font-size: 30px;
+}
+.link{
+    font-family: Arial;
+    font-size: 18px;
+    border: 2px solid rgb(10,10,10);
+    background-color: rgb(50,50,50);
+    color: white;
+}
+.classstart {
+    background-color: rgb(147, 240, 147);
+}
+
+.classend {
+    background-color: rgb(244, 87, 87);
+}
+
+.classbl {
+    background-color: black;
+}
+
+.classwh {
+    background-color: white;
+}
+
+.path {
+    background-color: rgb(255, 255, 152);
+}
+
+.par{
+    background-color: rgb(228, 188, 255);
+}
+.button{
+    font-family: Arial;
+    font-size: 18px;
+    border: 2px solid rgb(10,10,10);
+    background-color: rgb(50,50,50);
+    color: white;
+}
+h1{
+    padding-left: 0%;
+}
+
+ul{
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+}
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}

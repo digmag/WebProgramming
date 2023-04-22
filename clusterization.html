@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Кластеризация</title>
+    <link rel="stylesheet" href="CSS/pagesheet.css">
+  </head>
+  <body class = "mainpage">
+    <div>
+      <a class = "link" href = "astar.html">A*</a>
+      <a class = "link" href = "genetical.html">Генетический алгортим</a>
+      <a class = "link" href = "tree.html">Дерево решений</a>
+      <a class = "link" href = "neuronet.html">Нейроная сеть</a>
+  </div>
+    <canvas class = "canvas" id="canvas" width="400" height="400"></canvas>
+    <br />
+    <label for="eps">Расстояние между точками:</label>
+    <input type="range" id="eps" name="eps" min="1" max="500" value="50" />
+    <br />
+    <label for="minPts">Минимум точек в кластере:</label>
+    <input type="range" id="minPts" name="minPts" min="1" max="20" value="3" />
+    <br />
+    <button class = "button" id= "calculate">Кластеризировать</button>
+  </body>
+  <script type="text/javascript" src="JS/clusterizationScript.js"></script>

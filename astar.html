@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>А звездочка</title>
+        <link rel="stylesheet" href="CSS/pagesheet.css">
+    </head>
+    <body class = "mainpage">
+        <div>
+            <a class = "link" href = "clusterization.html">Кластеры</a>
+            <a class = "link" href = "genetical.html">Генетический алгортим</a>
+            <a class = "link" href = "tree.html">Дерево решений</a>
+            <a class = "link" href = "neuronet.html">Нейроная сеть</a>
+        </div>
+        <div>
+            <div style="width: 900px; height: 970px;position: relative; left: 20px;">
+                <h1>A*</h1>
+                <a class = "input">Введите размер поля: </a>
+                <input type="text" id="size" value="7" class="input">
+                <button class="button" id = "clearMap">Создать/очистить карту</button>
+                <button class="button" id = "findPathButton">Поехали</button>
+                <table id="table"></table>
+            </div>
+            <script src="JS/astar.js"></script>
+            <script src = "JS/astarsound.js"></script>
+        </div>
+    </body>
